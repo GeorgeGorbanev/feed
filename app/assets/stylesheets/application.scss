@@ -13,3 +13,23 @@
  *= require_tree .
  *= require_self
  */
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
+#root{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+ .none	{
+ 		display:	none	!important;
+ }
+ .news__readmore{
+   margin-top: -10px;
+   padding-left: 15px;
+   margin-bottom: 5px;
+ }
+ .panel-body{
+   margin-bottom: 0;
+   padding-bottom: 10px;
+ }
