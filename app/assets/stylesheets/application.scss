@@ -33,3 +33,35 @@
    margin-bottom: 0;
    padding-bottom: 10px;
  }
+
+.add	{
+		margin:	0	5px	20px	0;
+		width:	100%;
+		padding:	5px;
+    padding-bottom: 25px;
+}
+.add__author,	.add__text,	.add__btn,	.add__checkrule	{
+		display:	block;
+		margin:	0	0	5px	0;
+		padding:	5px;
+		width:	100%;
+}
+.add__checkrule	{
+		border:	none;
+		font-size:	16px;
+    display: inline;
+}
+.add__btn	{
+		box-sizing:	content-box;
+		color:	#FFF;
+		background:	#007DDC;
+    width: 200px;
+    float: right;
+    margin: 5px;
+    margin-top: 5px;
+    display: inline;
+}
+.add__btn:disabled	{
+		background:	#CCC;
+		color:	#999;
+}
